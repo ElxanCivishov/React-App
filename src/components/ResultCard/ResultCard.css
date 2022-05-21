@@ -1,0 +1,123 @@
+.result-card {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin: 0;
+}
+
+.poster-wrapper img,
+.filler-poster {
+  width: 150px;
+  height: 200px;
+  background-color: #dbdada;
+  border-radius: 5px;
+  margin-right: 15px;
+  display: block;
+  color: transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: var(--secondary);
+  color: #fff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  line-height: 2;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #1aa762;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.result-card .info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 2rem;
+}
+
+.result-card .info .controls {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.result-card .info .release-date {
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: var(--primary);
+  margin: 0;
+}
+
+.result-card .controls button {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .result-card .info .release-date {
+    font-size: 2rem;
+  }
+
+  .poster-wrapper img,
+  .filler-poster {
+    width: 130px;
+    height: 150px;
+  }
+
+  .btn {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .title {
+    font-size: 1rem;
+  }
+
+  .result-card .info .release-date {
+    font-size: 1rem;
+  }
+
+  .poster-wrapper img,
+  .filler-poster {
+    width: 90px;
+    height: 120px;
+  }
+
+  .btn {
+    font-size: 0.5rem;
+  }
+}

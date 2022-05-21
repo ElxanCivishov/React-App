@@ -1,0 +1,13 @@
+.header__nav {
+    background: #496ddb;
+    padding: 10px calc(50% - 500px);
+  }
+  
+  .header__title {
+    font-family: "Luckiest Guy", cursive;
+    color: #ffeedb;
+    font-size: 35px;
+    margin: 0px;
+    margin-left: 40px;
+  }
+  

@@ -1,6 +1,6 @@
 # MOVIES REACT APP WITH CONTEXT API 
 
-3 APP DEPLOYED IN NETLIFY : https://movies-react-app-contextapi.netlify.app/
+# APP DEPLOYED IN NETLIFY : https://movies-react-app-contextapi.netlify.app/
 
 Modul 4
 
